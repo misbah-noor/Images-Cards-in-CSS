@@ -1,6 +1,7 @@
 # Responsive Cards in CSS
 Here! I have discussed flexbox properties that how to create a responsive cards by using those properties.Hope so it might be helpful 🚀👇.
-1.display: The display property is set to flex to enable Flexbox layout on the container element. This property can also be set to inline-flex to create an inline-level flex container.
+
+#1. display: The display property is set to flex to enable Flexbox layout on the container element. This property can also be set to inline-flex to create an inline-level flex container.
 
 2.flex-direction: This property determines the direction in which flex items are placed in the flex container. It can be set to row, row-reverse, column, or column-reverse.
 
