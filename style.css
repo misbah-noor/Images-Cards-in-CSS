@@ -1,0 +1,79 @@
+/*External CSS*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba( 27, 27, 27);
+   background-image: url(images/5a6b5014f1c4e9e04fb8c0d78c72b193.jpg);
+   background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 350px;
+    height: 520px;
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.card-image{
+    background-color: aqua;
+    height: 290px;
+    margin-bottom: 10px;
+    background-size: cover;
+    border-radius:15px;
+}
+
+.card-1{
+    background-image: url(images/s-l1200.webp);
+}
+
+.card-2{
+    background-image: url(./images/f9749ce6b114e5ae79d39b59bb0b11fe.jpg);
+}
+
+.card-3{
+    background-image: url(./images/cu7009-010-phsfh001.jpg);
+}
+
+ .card-4{
+    background-image: url(images/1672376644594_SKU-0097_1.jpg);
+ }
+
+ .card-5{
+    background-image: url(images/518G3vcD-AL._AC_UY1100_.jpg);
+ }
+
+ .card-6{
+    background-image: url(images/dior-love-punch1540664316-wishlistpk-smart-shop.pk-fashionker.pk.jpeg);
+ }
+
+button{
+    background-color: rgb(0, 0, 0);
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button a{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card:hover{
+    background-color: #252323cb;
+    color: white;
+    cursor:pointer;
+    transform: scale(1.01);
+}
